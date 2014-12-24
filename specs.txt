@@ -1,27 +1,26 @@
-1. User can create an Entity.
+1. User can create an Exception Test Flow or edit an existing Exception Test Flow.
 2. Name field (Unique, Required, text, 50 characters).
-3. System must show an option to add the existing Item to the list of selected Items of the Entity.
-To do so, it must be shown a list of the selected Items and a list of remaining
-not selected Items with an option to move an item of any list to the other list.
+3. System must show an option to add the existing Tester to the list of selected Testers of the Exception Test Flow.
+To do so, it must be shown a list of the selected Testers and a list of remaining
+not selected Testers with an option to move an item of any list to the other list.
 
-- Both lists must be paged with 10 Items per page.
+- Both lists must be paged with 10 Testers per page.
 
-- It must also be possible to change the order of the selected Items.
+- It must also be possible to change the order of the selected Testers.
 
-- System must also show an option to add a Serial Number to the list of registered Serial Numbers.
-To do so, it must show a Serial Number field (Unique in the Entity, Required, text, 50 characters)
-and an option to add the filled value to the list of Serial Numbers.
+- System must also show an option to add a Part Number to the list of registered Part Numbers.
+To do so, it must show a Part Number field (Unique in the Exception Test Flow, Required, text, 50 characters) and an option to add the filled value to the list of Part Numbers.
 
-- System must also show an option to edit and delete the Serial Numbers of the list.
+- System must also show an option to edit and delete the Part Numbers of the list.
 
-- The list must be paged with 10 Serial Numbers per page.
+- The list must be paged with 10 Part Numbers per page.
 
-- System must validate that the list of Selected Items must have at least one Item.
+- System must validate that the list of Selected Testers must have at least one Tester.
 
-- System must also limit the number of selected Items to the maximum of 50.
+- System must also limit the number of selected Testers to the maximum of 50.
 
-- System must validate that each Serial Number of the Serial Numbers list is not used in any other Entity and is not duplicated in the list.
+- System must validate that each Part Number of the Part Numbers list is not used in any other Exception Test Flow and is not duplicated in the list.
 
-- System must validate that the list of Serial Numbers must have at least one Serial Number.
+- System must validate that the list of Part Numbers must have at least one Part Number.
 
-- System must also limit the number of Serial Numbers to the maximum of 50.
+- System must also limit the number of Part Numbers to the maximum of 50.
